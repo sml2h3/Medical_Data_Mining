@@ -24,7 +24,7 @@ public class FileUtilWrite extends FileUtil {
 	}
 
 	@Override
-	public void writeToFile(String outputStr) {
+	public void write(String outputStr) {
 		// TODO Auto-generated method stub
 		if (outputStr == null) {
 			System.out.println("输出字符串为空，无法输出");

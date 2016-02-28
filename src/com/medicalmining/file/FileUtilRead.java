@@ -42,7 +42,7 @@ public class FileUtilRead extends FileUtil {
 	}
 
 	@Override
-	public void writeToFile(String outputStr) {
+	public void write(String outputStr) {
 		// TODO Auto-generated method stub
 		
 	}

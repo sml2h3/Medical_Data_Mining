@@ -1,7 +1,5 @@
 package com.medicalmining.test.file;
 
-import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,13 +14,13 @@ public class TestFileUtilWrite {
 	@Test
 	public void testWriteTofile() {
 		FileUtilWrite fileUtilWrite = new FileUtilWrite("output.txt");
-		fileUtilWrite.writeToFile("ageag");
+		fileUtilWrite.write("ageag");
 	}
 	
 	@Test
 	public void testWriteTofileNull(){
 		FileUtilWrite fileUtilWrite = new FileUtilWrite("output.txt");
-		fileUtilWrite.writeToFile(null);
+		fileUtilWrite.write(null);
 	}
 
 }

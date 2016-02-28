@@ -29,6 +29,6 @@ public abstract class FileUtil {
 
 	public abstract String getFromFile(String charset);
 
-	public abstract void writeToFile(String outputStr);
+	public abstract void write(String outputStr);
 
 }
