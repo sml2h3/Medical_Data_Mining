@@ -1,4 +1,4 @@
-package com.medicalmining.test.file;
+package test.com.medicalmining.file;
 
 import org.junit.Before;
 import org.junit.Test;
