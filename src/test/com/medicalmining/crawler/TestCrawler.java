@@ -1,4 +1,4 @@
-package com.medicalmining.test.crawler;
+package test.com.medicalmining.crawler;
 
 import org.junit.Test;
 
