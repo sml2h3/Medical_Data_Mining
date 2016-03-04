@@ -1,9 +1,9 @@
 # Java class files
 *.class
-
+.log
 # generated files
-bin/
-gen/
-.settings/
+bin/*
+syptomCollectionresult/*
+.settings/*
 
 

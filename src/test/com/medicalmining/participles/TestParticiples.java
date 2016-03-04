@@ -12,22 +12,23 @@ public class TestParticiples {
 	public void testParticiplesFromFolder() {
 		Participle participles = new Participle("wordresult.txt");
 		File root = new File("syptomCollection");
+		String targetFolderPath = "syptomCollectionresult/";
 		for (File oneFile : root.listFiles()) {
 			if (oneFile.isFile()) {
-				participles.doParticiple(oneFile.getPath(),"syptomCollectionresult/"+oneFile.getName());
+				participles.doParticiple(oneFile.getPath(), targetFolderPath + oneFile.getName());
 			}
 		}
 	}
 
 	@Test
 	public void testParticiplesFromOneFile() {
-//		Participle participles = new Participle("expected.txt");
-//		participles.doParticiple("syptomCollection/SARS.txt", "syptomCollectionresult/SARS.txt");
+		Participle participles = new Participle("expected.txt");
+		participles.doParticiple("syptomCollection/SARS.txt", "syptomCollectionresult/SARS.txt");
 	}
 
 	@Test
 	public void testParticiplesInit() {
-//		Participle participles = new Participle("expected.txt");
+		Participle participles = new Participle("expected.txt");
 	}
 
 }

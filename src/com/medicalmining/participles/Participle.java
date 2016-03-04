@@ -45,7 +45,6 @@ public class Participle {
 				if (this.mWordsSet == null) {
 					mWordsSet = new HashSet<>();
 				}
-				
 				mWordsSet.add(strsLevelTwo);
 			}
 		}
